@@ -4,7 +4,7 @@ import TrackerMiddle from './TrackerMiddle'
 import TrackerRight from './TrackerRight'
 import './Tracker.css'
 
-function Tracker() {
+function Tracker(props) {
 
      //setting a variable to track user Income Input, and User Income Value
   const [incomeInput, setIncomeInput] = useState({input:'', value:''});
@@ -17,23 +17,23 @@ function Tracker() {
 
     //handles the income name
   const handleIncomeInput = (e) => {
-      e.preventDefault();
-      setIncomeInput({input: e.target.value})
+     
+      setIncomeInput({input: e.target.value, value:''})
         
   }
 
   //handles income value
-  const handleIncomeValueInput = (e) => {
-     e.preventDefault();
-     setIncomeInput({value:e.target.value})
+  const handleIncomeValueInput = (e,prevState) => {
+
+     setIncomeInput(prevState => ({...prevState, value:e.target.value}))
       
   }
 
   //adds a new income to incomeList State
   const submitIncome = (e) => {
-        e.preventDefault();
         setIncomeList([...incomeList, incomeInput])
-        console.log(incomeList[0])
+        setIncomeInput({input: '', value:''})
+        console.log(incomeList)
   }
 
 

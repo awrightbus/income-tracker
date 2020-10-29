@@ -15,7 +15,7 @@ function TrackerMiddle(props) {
                     <input  placeholder='Enter Descriptive name' type='text' value={props.income.input} onChange={(e) => props.inputTextChange(e)}/>
                     <br/>
                     <input  placeholder='Enter Amount in USD' value={props.income.value} onChange={(e) => props.inputValueChange(e)}/>
-                    <p className='income-btn-btn' onClick={props.submitIncome}> Add Income</p>
+                    <p className='income-btn-btn' onClick={(e) =>props.submitIncome(escape)}> Add Income</p>
                 </form>
                 <form className='expense-button'>
                     <input placeholder='Enter Descriptive name'/>
