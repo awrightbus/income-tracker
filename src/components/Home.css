@@ -1,0 +1,58 @@
+.Home{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  -webkit-box-shadow: -40px 25px 25px 6px #85919d;
+  box-shadow: -40px 25px 55px 6px #85919d;
+  transform-style: preserve-3d;
+  background-color: var(--main-accent-color);
+  border-radius: 20px;
+    
+}
+
+.cta{
+    max-width: 350px;
+    
+
+    
+}
+
+.home-register{
+    color: whitesmoke;
+    background-color: #314b5c;
+    border-radius: 10px;
+    padding: 15px 0px;
+    width: 80px;
+    text-align: center;
+}
+
+.responsive-image-image{
+    
+  
+}
+
+
+
+
+
+@media screen and (max-width: 1084px) {
+    .responsive-image-image{
+        width: 300px;
+        height: auto;
+    }
+  }
+
+  @media screen and (max-width: 653px) {
+    .Home{
+        display: block;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+      
+    }
+
+    .home-register{
+      margin: auto;
+    }
+  }

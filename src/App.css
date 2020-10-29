@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Staatliches&display=swap');
+
+
+:root{
+    --logo-font: 'Staatliches', cursive;
+    --main-font: 'Dosis', sans-serif;
+    --main-accent-color: #ecb15f;
+    --main-background-color: #f5d6ad;
+}
+
+body{
+    width: 80%;
+    margin: auto;
+    font-family: var(--main-font);
+    background-color:var(--main-background-color);
+    height: auto;
+}

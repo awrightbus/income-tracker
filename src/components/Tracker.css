@@ -1,0 +1,46 @@
+.Tracker{
+    display: flex;
+    justify-content: space-between;
+    font-size: .9em;
+    -webkit-box-shadow: -40px 25px 25px 6px #85919d;
+    box-shadow: -20px 15px 25px 6px #85919d;
+    transform-style: preserve-3d;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 20px 20px;
+    margin-bottom: 20px;
+}
+
+
+.tracker-left{
+    flex: .2;
+}
+
+.tracker-middle{
+    flex: .6;
+}
+
+
+.tracker-right{
+    flex: .2;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .Tracker{
+        display: block;       
+    }
+    .tracker-left{
+        text-align: center;
+    }
+    
+    .tracker-middle{
+        text-align: center;
+        
+    }
+    
+    
+    .tracker-right{
+        text-align: center;
+    }
+  }

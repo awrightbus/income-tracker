@@ -1,0 +1,35 @@
+.Navigation{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1em;
+ 
+    
+}
+
+
+.Nav-items ul{
+    display: flex;
+    
+    
+}
+
+.Nav-items li{
+    text-decoration: none;
+    list-style: none;
+    margin-right: 15px;
+    padding: 15px 10px;
+}
+
+
+.nav-item-register{
+    color: whitesmoke;
+    background-color: #314b5c;
+    border-radius: 10px;
+}
+
+
+.logo{
+    font-family: var(--logo-font);
+}

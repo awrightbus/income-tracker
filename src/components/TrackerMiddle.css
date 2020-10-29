@@ -1,0 +1,60 @@
+.expense-buttons{
+    display: flex;
+    justify-content: space-between;
+    max-width: 50%;
+    
+}
+
+.income-button input{
+    margin: 10px 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: whitesmoke;
+}
+
+.expense-button input{
+    margin: 10px 0px 10px 0px;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: whitesmoke;
+}
+
+.income-btn-btn{
+    background-color: #7fc9f2;
+    color:white;
+    border-radius: 10px;
+    padding: 15px 0px;
+    width: 80px;
+    text-align: center;
+}
+
+.expense-btn-btn{
+    background-color: #fe7798;
+    color:white;
+    border-radius: 10px;
+    padding: 15px 0px;
+    width: 80px;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    .expense-buttons{
+        margin: auto;
+    }
+
+    .expense-btn-btn{
+        margin: auto;
+    }
+    .income-btn-btn{
+        margin: auto;
+    }
+  }
+
+
+  @media screen and (max-width: 769px) {
+    .expense-buttons{
+        display: block;
+    }
+  }

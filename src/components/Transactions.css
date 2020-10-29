@@ -1,0 +1,26 @@
+.Transactions{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.transaction-card{
+    padding: 20px 15px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.trans-content-cont{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.trans-heading{
+    display: flex;
+    
+}
+
+.trans-logo{
+    margin-right: 10px;
+}
